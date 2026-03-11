@@ -59,3 +59,20 @@ Um aplicativo web full-stack para controle financeiro automatizado, com o back-e
 
 ## Funcionalidades
 A aplicação possui comunicação completa de API com banco de dados para gerenciar dados financeiros (despesas, receitas) por mês.
+
+---
+
+## 🤖 Como rodar este projeto usando IA (Setup Automatizado)
+
+Se você utiliza assistentes virtuais de código baseados em IA (como **ChatGPT Server/Dev**, **Claude / Cursor**, **GitHub Copilot Workspace** ou **Gemini Code Assist**), você pode pedir para a própria IA configurar e rodar todo o projeto para você!
+
+Basta copiar e colar o **Prompt** abaixo no chat da sua IA:
+
+> **Prompt de Instalação Automatizada:**
+> *"Olá! Eu acabei de clonar este repositório de Controle Financeiro. Este é um projeto full-stack. O back-end está na pasta `backend` (escrito em Python/FastAPI) e o front-end está na pasta `frontend` (escrito em React/Vite).*
+> 
+> *Por favor, faça o setup completo e rode o projeto na minha máquina. Siga estes passos de forma autônoma:*
+> *1. Leia o README.md para entender os requisitos.*
+> *2. Abra um terminal, entre na pasta `backend`, crie um ambiente virtual (venv), ative-o, instale as dependências (FastAPI, Uvicorn, SQLAlchemy, Pydantic) e inicie o servidor rodando `uvicorn main:app --reload` no background.*
+> *3. Abra um segundo terminal, entre na pasta `frontend`, rode `npm install` e depois inicie o servidor com `npm run dev`.*
+> *4. Me avise quando tudo estiver rodando e me passe as URLs de acesso."*
