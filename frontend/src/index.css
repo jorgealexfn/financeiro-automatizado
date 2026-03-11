@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-app-bg: #f8fafc;
+  --color-green-light: #dcfce7;
+  --color-green: #22c55e;
+  --color-red-light: #fee2e2;
+  --color-red: #ef4444;
+  --color-blue-light: #e0f2fe;
+  --color-blue: #3b82f6;
+  --color-yellow: #eab308;
+}
+
+body {
+  background-color: var(--color-app-bg);
+}
